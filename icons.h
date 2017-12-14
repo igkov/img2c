@@ -3,10 +3,6 @@
 
 #include <stdint.h>
 
-#if !defined( NULL )
-#define NULL ((void*)0)
-#endif
-
 // Поле размера используется для функционала, когда структуры запакованы!
 typedef struct {
 	uint8_t sizex;
